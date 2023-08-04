@@ -1,5 +1,3 @@
-require 'pry'
-
 class Solver
   def factorial(num)
     arr = (1..num)
