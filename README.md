@@ -1,14 +1,16 @@
-## Getting Started
-
-In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code. This will be verified in your commits history, so it is important to use the proper sequence.
-
 <a name="readme-top"></a>
+
+<div align="center">
+  <h3><b>TDD Project</b></h3>
+</div>
+
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -26,53 +28,69 @@ In this project you will implement a class with some methods, but you will do it
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 TDD project <a name="about-project"></a>
+In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code. This will be verified in your commits history, so it is important to use the proper sequence.
 
-**TDD project**
-
-- Write unit tests using Rspec.
-- Understand an existing codebase in a way that allows for adding tests.
-- Write Rspec unit tests with mocks.
-- Understand the TDD concept.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Ruby</summary>
+<summary>Ruby</summary>
   <ul>
-    <li><a href="https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md">Ruby instalation instructions</a></li>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+  </ul>
+</details>
+<details>
+<summary>Rspec</summary>
+  <ul>
+    <li><a href="https://rspec.info/">Rspec</a></li>
   </ul>
 </details>
 
+### Key Features <a name="key-features"></a>
+
+- **Test driven development with rspec**
+- **Write unit tests using Rspec.**
+- **Understand an existing codebase in a way that allows for adding tests.**
+- **Write Rspec unit tests with mocks.**
+- **Understand the TDD concept.**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can see the live demo here: N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-TDD project.
+To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-Ruby 3.0.1
-
+```sh
+ gem install rspec
+```
 ### Setup
-
 Clone this repository to your desired folder:
-
-
+```sh
+  cd folder
+  git clone git@github.com:lincoln1883/TDD-project.git
+```
 ### Install
-
-You don't need to install this project.
-
+Install this project with:
+```sh
+  cd my-project
+  rspec --init
+```
 ### Usage
 
-run ruby TDD-project.rb
+To run the project run this command:
 
-### Run tests
-
-No testing implemented yet
-
+```sh
+  irb
+```
 ### Deployment
 
 No deployment implemented yet
